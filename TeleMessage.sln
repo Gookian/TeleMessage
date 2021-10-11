@@ -7,7 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{BF88285E-291D-49B5-A155-199EC6EA2872}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{23503A66-36CB-472A-9EEB-FDCBF670BDC2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{8B8176BB-89CC-47F2-B908-DABA779ABA93}"
+	ProjectSection(SolutionItems) = preProject
+		D:\Учеба\3 семестр\ООПОФ\ClientDiagramClass.drawio = D:\Учеба\3 семестр\ООПОФ\ClientDiagramClass.drawio
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
