@@ -19,7 +19,7 @@ namespace Server
         public void AddMessage(Message message)
         {
             _messages.Add(message);
-            UI.ConsoleWrite(message);
+            UI.ConsoleWrite("[Чат]", message);
             NewMessageSended?.Invoke(this, new NewMessageEventArgs(message));
         }
 

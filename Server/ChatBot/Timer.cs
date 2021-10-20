@@ -7,11 +7,23 @@ namespace Server.ChatBot
     {
         private Stopwatch stopwatch = new Stopwatch();
 
+        public int Hour
+        {
+            get { return stopwatch.Elapsed.Hours; }
+        }
+
+        public int Minute
+        {
+            get { return stopwatch.Elapsed.Minutes; }
+        }
+
+        public int Second
+        {
+            get { return stopwatch.Elapsed.Seconds; }
+        }
+
         public string Time()
         {
-            //int hours;
-            //int Minutes;
-            //int seconds;
             return Convert.ToString(stopwatch.Elapsed.Hours + ":" + stopwatch.Elapsed.Minutes + ":" + stopwatch.Elapsed.Seconds);
         }
 

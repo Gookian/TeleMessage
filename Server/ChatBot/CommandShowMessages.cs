@@ -14,7 +14,7 @@
             int n = _bot.Chat.Messages.Count - 1;
             for (int i = 0;  i < n; i++)
             {
-                UI.ConsoleWrite(_bot.Chat.Messages[i]);
+                UI.ConsoleWrite("[Бот]", _bot.Chat.Messages[i]);
             }
         }
     }
